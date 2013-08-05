@@ -1,4 +1,10 @@
-bacra.github.com
-================
+This is a Site
+==============
 
-This is me.
+checkout to http://bacra.github.io
+
+
+
+## License
+
+[MIT License](./LICENSE.md).
