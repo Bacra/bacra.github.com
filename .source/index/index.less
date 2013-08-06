@@ -1,0 +1,48 @@
+.wf_mIndex {
+	text-align: center;
+	width: 96%;
+	min-width: 350px;
+	margin: 0 auto;
+
+	.__tit {
+		padding: 162px 12px 140px;
+		font-weight: bold;
+		font-size: 36px;
+	}
+	.__projs {
+		border-top: 1px solid @borderColor;
+		padding: 8px;
+		margin-left: -8px;
+
+		a {
+			margin-right: 8px;
+
+			&.wf_mIndex__projsA--ml8 {
+				margin-left: 8px;
+			}
+		}
+	}
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+	.wf_mIndex__tit {
+		padding: 12px;
+		font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.wf_mIndex__tit {
+		font-size: 44px;
+	}
+}
+
+
+@media screen and (min-width: 992px) {
+	.wf_mIndex__tit {
+		font-size: 56px;
+	}
+}

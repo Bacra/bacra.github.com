@@ -1,5 +1,5 @@
 module.exports = {
-	"name": "bacra",							// 项目名称
+	"name": "Bacra",							// 项目名称
 	"alias": "bacra",							// 项目的默认二级域名
 	"sync": false,									// fileMap文件同步目录
 	"catalog": false,								// 项目内嵌的二级目录
@@ -12,7 +12,12 @@ module.exports = {
 	"HTML": {							// 配置项目HTML（公共部分）
 		"index/index.html": {
 			'index.html': {
-				'title': '首页'
+				'title': 'An D2er'
+			}
+		},
+		"license/license.html": {
+			'license.html': {
+				'title': 'MIT'
 			}
 		}
 	},
@@ -21,21 +26,15 @@ module.exports = {
 			'common/reset.css',
 			'common/base.css',
 			'common/nav.less',
-			'common/frame.less'
-		],
-		"css/page.min.css": [
-			"index/index.less"
+
+			"index/index.less",
+			"license/license.less"
 		],
 
 		"js/base.min.js": [
 			'common/nav.js',
 			'common/nav.test.js',
-			'common/frame.js',
-			'common/frame.test.js'
-		],
-		"js/page.min.js": [
-			"index/index.js",
-			"index/index.test.js"
+			'common/google-analytics.js'
 		]
 	}
 };
