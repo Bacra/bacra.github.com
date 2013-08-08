@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title><%= sys.title %> - Bacra Woo</title>
+<%if (root.description) { %><meta name="description" content="<%= description %>" /><% } %>
 <link rel="stylesheet" type="text/css" href="/css/base.min.css" />
 <%- sys.extCSS %>
 </head>
