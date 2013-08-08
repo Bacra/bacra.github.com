@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /.source/
+Disallow: /node-d2server/.source/
+Disallow: /node-d2server/feedback.html
