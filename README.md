@@ -1,10 +1,10 @@
 This is a Site
 ==============
 
-checkout to http://bacra.github.io
+checkout to https://bacra.github.io
 
 
 
 ## License
 
-[MIT License](./LICENSE.md).
+[MIT License](./LICENSE).
